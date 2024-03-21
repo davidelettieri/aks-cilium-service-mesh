@@ -1,0 +1,2 @@
+kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.11/samples/bookinfo/platform/kube/bookinfo.yaml
+kubectl apply -f https://raw.githubusercontent.com/cilium/cilium/1.15.2/examples/kubernetes/gateway/basic-http.yaml
