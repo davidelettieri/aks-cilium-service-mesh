@@ -9,7 +9,7 @@ param loadBalancerSku string
 
 targetScope='subscription'
 
-resource rg 'Microsoft.Resources/resourceGroups@2023-07-01' = {
+resource rg 'Microsoft.Resources/resourceGroups@2024-11-01' = {
   name: resourceGroupName
   location: location
 }

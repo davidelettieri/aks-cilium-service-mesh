@@ -5,7 +5,7 @@ param nodeCount int
 param nodeSize string
 @allowed(['standard', 'basic'])
 param loadBalancerSku string
-resource aksCluster 'Microsoft.ContainerService/managedClusters@2023-10-01' = {
+resource aksCluster 'Microsoft.ContainerService/managedClusters@2024-09-01' = {
   name: clusterName
   location: location
   identity: {
